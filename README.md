@@ -62,8 +62,114 @@ Now that you have git installed, you can clone the repository to your computer. 
 git clone https://github.com/MatthewEthanTam/biologyDataScienceProject.git
 ```
 
-### 🌟 If you would like to create a key to allow for cloning the repository using SSH key instead of https go to the Extra Section after the lessons 🌟
-
 This will clone the repository to your computer. You can now move on to lesson 2.
 
-# Lesson 2: Getting the data (Downloading the data)
+### 🌟 If you would like to create a key to allow for cloning the repository using SSH key instead of https go to the Extra Section after the lessons 🌟
+
+# Lesson 2: Setting up Python and Jupyter Notebook
+
+PS: if you have python and jupyter notebook installed skip to lesson 3
+
+Now that you have cloned the repository to your computer, you can start working on the project. The first thing you need to do is install python and jupyter notebook. To do this, follow the instructions for your operating system below.
+
+## 1. Installing Python
+
+### Mac
+
+To install python on a mac, you can type the following command into the terminal and press enter:
+
+```bash
+brew install python
+```
+
+### Windows
+
+To install python on a windows computer, you can download the installer from [here](https://www.python.org/downloads/). Once you have downloaded the installer, you can run it and follow the instructions to install python.
+
+### Linux
+
+To install python on a linux computer, you can type the following command into the terminal and press enter:
+
+```bash
+sudo apt install python3
+```
+
+## 2. Installing Jupyter Notebook
+
+### Mac, Windows, and Linux
+
+To install jupyter notebook, you can type the following command into the terminal and press enter:
+
+```bash
+pip install jupyter
+```
+
+You can now move on to lesson 3.
+
+# Lesson 3: creating a virtual environment
+
+PS: if you know how to do this skip to lesson 4
+
+Now that you have python and jupyter notebook installed, you can create a virtual environment to install the packages you need for this project. To do this, follow the instructions for your operating system below.
+
+## 1. Creating a virtual environment
+
+In the termnial first navigate to the folder you cloned the repository to. To do this, type the following command into the terminal and press enter:
+
+```bash
+cd biologyDataScienceProject
+```
+
+To create a virtual environment, you can type the following command into the terminal and press enter:
+
+```bash
+python3 -m venv env
+```
+
+this will create a virtual environment called `env` in the folder you cloned the repository to. The `env` folder will contain all the packages you install for this project.
+
+You can now move on to lesson 4.
+
+### 🌟If you want to learn about how to not commit and push files to your git repo using .gitignore go to the Extra Section🌟
+
+# Lesson 4: Installing the packages
+
+PS: if you know how to do this skip to lesson 5
+
+Now that you have created a virtual environment, you can install the packages you need for this project. To do this, follow the instructions for your operating system below.
+
+## 1. Activating the virtual environment
+
+To activate the virtual environment, you can type the following command into the terminal and press enter:
+
+```bash
+source env/bin/activate
+```
+
+## 2. Installing the packages
+
+To install the packages, you can type the following command into the terminal and press enter:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the packages you need for this project.
+
+You can now move on to lesson 5.
+
+### 🌟If you want to learn how to install packages from scratch into an environment and create a requirements.txt file from that go to the Extra Section🌟
+
+# Lesson 5: Opening Jupyter Notebook
+
+PS: if you know how to do this skip to lesson 6
+
+Now that you have installed the packages, you can open jupyter notebook. To do this, follow the instructions for your operating system below.
+
+## 1. Opening Jupyter Notebook
+
+To open jupyter notebook, you can type the following command into the terminal and press enter:
+
+```bash
+jupyter notebook
+```
