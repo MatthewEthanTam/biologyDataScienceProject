@@ -158,17 +158,33 @@ pip install -r requirements.txt
 
 This will install all the packages you need for this project.
 
+## 3. Deactivating the virtual environment (When you need to)
+
+To deactivate the virtual environment, you can type the following command into the terminal and press enter:
+
+```bash
+deactivate
+```
+
 You can now move on to lesson 5.
 
 ### 🌟If you want to learn how to install packages from scratch into an environment and create a requirements.txt file from that go to the Extra Section🌟
 
-# Lesson 5: Opening Jupyter Notebook
+# Lesson 5: Adding the virtual environment to Jupyter Notebook and Opening Jupyter Notebook 
 
 PS: if you know how to do this skip to lesson 6
 
-Now that you have installed the packages, you can open jupyter notebook. To do this, follow the instructions for your operating system below.
+Now that you have installed the packages, and created a virtual environment, you can add the virtual environment to jupyter notebook. To do this, follow the instructions for your operating system below.
 
-## 1. Opening Jupyter Notebook
+## 1. Adding the virtual environment to Jupyter Notebook
+
+To add the virtual environment to jupyter notebook, you can type the following command into the terminal and press enter:
+
+```bash
+python -m ipykernel install --user --name=env
+```
+
+## 2. Opening Jupyter Notebook
 
 To open jupyter notebook, you can type the following command into the terminal and press enter:
 
@@ -181,3 +197,21 @@ This will open jupyter notebook in your browser. You can now move on to lesson 6
 ```bash
 src/lessons/LS06-Microbiome_ASD.ipynb
 ```
+
+## 3. Opening Jupyter Notebook in a specific folder
+
+To open jupyter notebook in a specific folder, you can type the following command into the terminal and press enter:
+
+```bash
+jupyter notebook <folder>
+```
+
+## 4. Opening Jupyter Notebook in a specific folder with a specific virtual environment
+
+To open jupyter notebook in a specific folder with a specific virtual environment, you can type the following command into the terminal and press enter:
+
+```bash
+jupyter notebook --notebook-dir=<folder> --kernel=env
+```
+
+
