@@ -106,6 +106,8 @@ pip install jupyter
 
 You can now move on to lesson 3.
 
+### 🌟If you want to learn how to setup Juypter Notebooks in VSCode go to the Extra Section🌟
+
 # Lesson 3: creating a virtual environment
 
 PS: if you know how to do this skip to lesson 4
@@ -172,4 +174,10 @@ To open jupyter notebook, you can type the following command into the terminal a
 
 ```bash
 jupyter notebook
+```
+
+This will open jupyter notebook in your browser. You can now move on to lesson 6 in the following folder:
+
+```bash
+src/lessons/LS06-Microbiome_ASD.ipynb
 ```
