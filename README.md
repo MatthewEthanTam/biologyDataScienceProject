@@ -1,6 +1,6 @@
 # Biology Data Science Project
 
-I want to make this project a way for Biology students to explore coding and the wonders of computers in a space that people enjoy using coding as a tool to explore their interests. I want to make this project as open as possible so that anyone can contribute to it and make it better. I want to make this project a way for people to learn how to code and how to use computers to explore their interests.
+My aim is to create a project that serves as a dynamic platform where biology students can delve into the world of coding and computing. I envision this space as a collaborative hub where individuals are excited to use programming as a means to further explore their scientific interests. To foster a sense of community and collective growth, I am committed to keeping the project as open-source and inclusive as possible, inviting contributions from anyone interested in enhancing its scope and impact. Ultimately, this initiative seeks to empower individuals to harness the capabilities of coding and computing to explore and expand their academic and personal interests.
 
 # Lesson 1: Getting the data (Cloning the repository)
 
@@ -111,6 +111,8 @@ You can now move on to lesson 3.
 # Lesson 3: creating a virtual environment
 
 PS: if you know how to do this skip to lesson 4
+
+A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
 
 Now that you have python and jupyter notebook installed, you can create a virtual environment to install the packages you need for this project. To do this, follow the instructions for your operating system below.
 
